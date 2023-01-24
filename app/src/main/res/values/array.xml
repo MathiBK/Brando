@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="ruleSet">
+        <item>"Lag en regel!"</item>
+        <item>Chug med en venn!</item>
+        <item>Del ut 3 slurker!</item>
+        <item>Del ut 4 slurker! Maks 3 til 1 person!</item>
+        <item>Del ut 5 slurker! Maks 3 til 1 person!</item>
+        <item>Rim! Velg et ord, så skal de andre rime på det. Men vær litt grei og ikke velg pølse…</item>
+        <item>Tellelek! Tell etter tur, men på tall med 7 i og tall i 7-gangern skal man si børst istedenfor. F.eks. 14 og 17</item>
+        <item>Drikkebuddy! Velg en annen som skal drikke hver gang du drikker, og motsatt.</item>
+        <item>Kategori! Velg en kategori så sier dere noe som tilhører den kategorien etter tur. Taper drikker 5 slurker</item>
+        <item>Den til venstre må drikke!</item>
+        <item>Den til høyre må drikke!</item>
+        <item>Ikke svar! Første som svarer på et spørsmål fra den som trakk dette må drikke 5 slurker</item>
+        <item>Lag en regel!</item>
+    </string-array>
+</resources>

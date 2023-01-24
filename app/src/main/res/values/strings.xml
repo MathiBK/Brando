@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Drikkelek</string>
+    <string name="login">login</string>
+    <string name="show_rule">Vis regel</string>
+    <string name="show_old_rule">Velg lagret regel</string>
+    <string name="make_rule">Lag regel</string>
+    <string name="make_new_rule">Lag ny regel</string>
+    <string name="dont_make_same_rule">Du kan ikke velge samme regel</string>
+    <string name="dont_pick_empty_rule">Du må velge en regel</string>
+    <string name="already_chosen_rule">Du kan ikke velge 2 regler</string>
+    <string name="already_chosen_this_rule">Denne regelen er valgt før! Velg en annen</string>
+    <string name="hide_rule">Gjem regel</string>
+    <string name="tomt_felt">Skrivefeltet kan ikke være tomt</string>
+    <string name="gå_tilbake">Gå tilbake</string>
+    <string name="new_game">Start et nytt spill</string>
+    <string name="add_player">Legg til spiller</string>
+    <string name="show_make_new_rule">Lag ny regel</string>
+    <string name="show_current_rules">Vis regler i spill</string>
+    <string name="make_rule_text">Skriv din regel her</string>
+    <string name="make_rule_inf">Her kan du lage en ny regel eller velge fra gamle regler</string>
+    <string name="rule">Oisann! Her var det ikke noen regel…</string>
+    <string name="ser_bra_ut">Ser bra ut!</string>
+    <string name="ring_of_fylla">Ring of fylla</string>
+</resources>

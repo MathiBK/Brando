@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3A67"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".homemadeRuleActivity">
+
+    <TextView
+        android:id="@+id/makeRuleInf"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/make_rule_inf"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/makeNewRuleButton"
+        android:layout_width="@+id/ruleList"
+        android:layout_height="wrap_content"
+        android:background="#B56B45"
+        android:textColor="#ffffff"
+        android:onClick="showMakeNewRule"
+        android:text="@string/make_new_rule"
+        app:layout_constraintBottom_toTopOf="@+id/ruleList"
+        app:layout_constraintEnd_toEndOf="@+id/ruleList"
+        app:layout_constraintStart_toStartOf="@+id/ruleList"
+        app:layout_constraintTop_toBottomOf="@+id/makeRuleInf" />
+
+    <ListView
+        android:id="@+id/ruleList"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:background="@drawable/rule_list_border"
+        android:divider="#221E22"
+        android:dividerHeight="2dp"
+        android:listSelector="#97DFFC"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/makeRuleInf"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <EditText
+        android:id="@+id/makeNewRuleConfirm"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="@drawable/rule_list_border"
+        android:gravity="center"
+        android:hint="@string/make_rule"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="500"
+        android:scrollHorizontally="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+</android.support.constraint.ConstraintLayout>
